@@ -3,5 +3,5 @@
   $grep pico text.txt
 2. 將結果輸出到某個檔案  
   $./abc>text.txt
-3. 把亂把變成可讀字串(可搭配1.2.)
+3. 把亂把變成可讀字串(可搭配1.2.)  
   $strings text  
