@@ -10,3 +10,4 @@
 ### buffer overflow 1
 使用工具: <b>$readelf</b>  
 解決方法: 找出win的位置，透過overflow，將return address複寫成win的位置  
+參考網站: [picoctf-2018-writeup](https://github.com/PlatyPew/picoctf-2018-writeup/tree/master/Binary%20Exploitation/buffer%20overflow%201)  
