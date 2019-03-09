@@ -15,18 +15,17 @@ $gdb 123
 一行一行執行:  
 (gdb) step/n(n不會進到function)  
 
-### 顯示變數值  
-(gdb) print a  
+### 顯示變數值和位置以及函式位置  
+(gdb) print a  =  (gdb) p a  
+(gdb) print &a  
 (gdb) print $rax (register)  
+
 
 ### 顯示register  
 info registers (info all-registers)  
 
 ### info使用方式  
 (gdb) info  (相當於 --help)  
-
-### 取得變數或函式記憶體位置  
-(gdb) p &a  
 
 ## 參考資料  
 [1][GDB 使用教學](https://henrybear327.gitbooks.io/gitbook_tutorial/content/Linux/GDB/index.html)  
