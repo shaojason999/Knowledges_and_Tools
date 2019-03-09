@@ -7,8 +7,8 @@
   $strings text  
 4. 解讀執行檔等檔案
   $readelf  
-  參考網站: [使用readelf和objdump解析目标文件](https://www.jianshu.com/p/863b279c941e)  
-    重點:
+  [ELF介紹](/Knowledges/ELF introduction.md)  
+  [ELF介紹](Knowledges/ELF introduction.md) 
 
 ## pwn
 ### buffer overflow 1
