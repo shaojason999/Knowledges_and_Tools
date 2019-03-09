@@ -1,4 +1,4 @@
-## Some useful tool
+## Some useful tools
 1. 收尋字串 "pico"  
   $grep pico text.txt
 2. 將結果輸出到某個檔案  
