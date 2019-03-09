@@ -7,8 +7,7 @@
   $strings text  
 4. 解讀執行檔等檔案
   $readelf  
-  [ELF介紹](/Knowledges/ELF introduction.md)  
-  [ELF介紹](Knowledges/ELF introduction.md) 
+  [ELF介紹](./Knowledges/ELF.md)  
 
 ## pwn
 ### buffer overflow 1
