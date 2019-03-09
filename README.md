@@ -9,8 +9,8 @@
   $readelf  
   [readelf_and_objdump介紹](./Knowledges/readelf_and_objdump.md)  
 5. 得到每個段的大小、資料、存放位置、反解譯
-  $objdump -x -s -d 123(.o)
-  [readelf_and_objdump介紹](./Knowledges/readelf_and_objdump.md)
+  $objdump -x -s -d 123(.o)  
+  [readelf_and_objdump介紹](./Knowledges/readelf_and_objdump.md)  
 
 ## pwn
 ### buffer overflow 1
