@@ -5,12 +5,10 @@
   $./abc>text.txt
 3. 把亂把變成可讀字串(可搭配1.2.)  
   $strings text  
-4. 解讀執行檔等檔案
-  $readelf  
-  [readelf_and_objdump介紹](./Knowledges/readelf_and_objdump.md)  
-5. 得到每個段的大小、資料、存放位置、反解譯
+4. 解讀執行檔等檔案([readelf_and_objdump介紹](./Knowledges/readelf_and_objdump.md))  
+  $readelf -s 123  
+5. 得到每個段的大小、資料、存放位置、反解譯([readelf_and_objdump介紹](./Knowledges/readelf_and_objdump.md))  
   $objdump -x -s -d 123(.o)  
-  [readelf_and_objdump介紹](./Knowledges/readelf_and_objdump.md)  
 
 ## pwn
 ### buffer overflow 1
