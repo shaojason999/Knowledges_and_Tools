@@ -5,6 +5,10 @@
   $./abc>text.txt
 3. 把亂把變成可讀字串(可搭配1.2.)  
   $strings text  
+4. 解讀執行檔等檔案
+  $readelf  
+  參考網站: [使用readelf和objdump解析目标文件](https://www.jianshu.com/p/863b279c941e)  
+    重點:
 
 ## pwn
 ### buffer overflow 1
