@@ -15,3 +15,12 @@
 使用工具: <b>$readelf</b>, 也可以用objdump等工具  
 解決方法: 找出win的位置，透過overflow，將return address複寫成win的位置  
 參考網站: [picoctf-2018-writeup](https://github.com/PlatyPew/picoctf-2018-writeup/tree/master/Binary%20Exploitation/buffer%20overflow%201)  
+### buffer overflow 解法  
+1. 找到變數位置  
+  (gdb) p &a  
+2. 找到stack底位置  
+  (gdb) p $rbp  
+3. 找到要跳去的function位置  
+  (gdb) p function  
+4. 如果變數位置為0x7fffffffe100，rbp位置為0x7fffffffe120，則  
+  需先隨便輸入比如'A'\*32個之後輸入function的位置，注意是little還是big endian，還有16進位的輸入問題(可借助python)。參考網站: [picoctf-2018-writeup](https://github.com/PlatyPew/picoctf-2018-writeup/tree/master/Binary%20Exploitation/buffer%20overflow%201) 
