@@ -25,7 +25,7 @@ info registers (info all-registers)
 ### info使用方式  
 (gdb) info  (相當於 --help)  
 
-### 取得變數記憶體位置  
+### 取得變數或函式記憶體位置  
 (gdb) p &a  
 
 ## 參考資料  
