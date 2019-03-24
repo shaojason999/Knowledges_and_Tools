@@ -6,9 +6,9 @@
   a. 最小兩兩相加得到新的節點  
   b. 最後從根結點往下，右節點給1，左節點給0  
   過程:  
-  ![gif](https://github.com/shaojason999/picoCTF/blob/master/Knowledges/pictures/Huffman_algorithm.gif)  
+  ![gif](https://github.com/shaojason999/Knowledges_and_Tools/blob/master/Knowledges/pictures/Huffman_algorithm.gif)  
   結果:  
-  ![jpg](https://github.com/shaojason999/picoCTF/blob/master/Knowledges/pictures/TABLE8.JPG)  
+  ![jpg](https://github.com/shaojason999/Knowledges_and_Tools/blob/master/Knowledges/pictures/TABLE8.JPG)  
 4. 特別注意: 因為每個字母都是終端節點，路徑唯一，所以不會有prefix相同，比如說假設t是101，則不會有一個字母是10100，也不會有10  
 5. 解碼: 其中一個方法是利用5的特性，就可以把壓縮後的10101010010010101解碼回字母，只要比對到，就換回字母。當然，取得檔案內容時也要包括霍夫曼樹才能解碼  
 
