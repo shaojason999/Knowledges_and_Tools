@@ -11,7 +11,7 @@
     * 分析網路封包header(主要是OSI的2,3,4層)，決定是否阻擋
     * 封包內容修改等功能
     * Linux核心內建，因此效率非常高
-    * Netfilter提供iptables軟體做為防火牆封包過濾的指令
+    * Netfilter提供[iptables](iptables.md)軟體做為防火牆封包過濾的指令
 5. TCP Wrappers
     * 爭對程式去控管
     * 透過 /etc/hosts.allow, /etc/hosts.deny來管理
