@@ -243,7 +243,7 @@
 3. 運作方法:
     * 用Dockerfile把.sh檔複製到image
     * .sh檔裡面寫了iptables的相關指令
-    * .sh檔是在 $ docker run時才執行，所以還可以傳參數進去(藉由改變環境變數 --env ACCEPT_PORT="80,443")
+    * .sh檔是在開啟conatiner後才執行(在Dockerfile裡的最後一句有寫到 CMD ["/bin/enforce-rules.sh"])，並且可以在$docker run 時傳參數給 .sh(透過\-\-env)
 4. 加入其他規則的方法: 比如限制IP來源
     * 先去[github](https://github.com/devrt/docker-container-firewall) clone下所有程式碼
     * 在.sh檔裡面加入你要的規則
