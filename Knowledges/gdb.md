@@ -10,6 +10,8 @@ $gdb 123
 
 (gdb) break 10  
 
+(gdb) b main  
+
 ### 執行  
 (gdb) r  
 一行一行執行:  
@@ -26,6 +28,12 @@ info registers (info all-registers)
 
 ### info使用方式  
 (gdb) info  (相當於 --help)  
+
+### permission denied
+如果遇到這個問題，可以先輸入解決
+```
+$ chmod +x filename
+```
 
 ## 參考資料  
 [1][GDB 使用教學](https://henrybear327.gitbooks.io/gitbook_tutorial/content/Linux/GDB/index.html)  
